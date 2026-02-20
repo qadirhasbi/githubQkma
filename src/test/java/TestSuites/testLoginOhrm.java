@@ -15,6 +15,7 @@ public class testLoginOhrm extends DriverSetup {
         driver.manage().window().maximize();
         LoginPageObjects lp = new LoginPageObjects(driver);
         lp.loginOHrm();
+        //to check git pull
 
     }
 
